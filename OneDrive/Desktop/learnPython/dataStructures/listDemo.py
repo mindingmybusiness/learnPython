@@ -26,3 +26,5 @@ print(test_list)
 test_list = test_list + [[5,6,4,3,2]]
 print(test_list)
 
+test_list.insert(3, 'A')
+print(test_list)
