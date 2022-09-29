@@ -10,3 +10,11 @@ print(students["Clarie"][2])
 
 print(students["Bob"][0:1:1])
 
+students = {"Alice":{"id":"001", "Age":26, "grade":"A"},
+            "Bob":{"id":"002", "Age":20, "grade":"B"}, 
+            "Dan":{"id":"003", "Age":29, "grade":"C"},
+            }
+
+print(students["Dan"]["Age"])
+
+print(students.get("Alice"))
